@@ -1,0 +1,190 @@
+/*Colors and fonts*/
+
+@media (max-width:500px){
+  .container{
+    width:400px;
+  }
+}
+
+@media (max-width:760px){
+  .container{
+    width:500px;
+  }
+}
+
+
+body {
+  text:center;
+  background: #d6e0f0;
+  color: rgb(50,50,50);
+  font-family:'Lora', serif;
+  margin:60px;
+  text-decoration-color: black;
+  font-size: 17px;
+  padding:10px 10px;
+}
+
+
+h1 {
+  color:black;
+  font-family: courier;
+  background: #A19BF7;
+  width:auto;
+  text-align: center;
+  padding:auto;
+
+}
+
+.intro{
+text-align:center;
+}
+
+h2{
+  margin:10px;
+  color: rgb(100,100,100);
+  font-family: Times;
+  font-weight: bold;
+
+}
+
+a {
+  color: purple;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-weight: bold;
+  border-radius: 4px;
+
+}
+
+a:hover {
+  color:blue;
+  background-color: lightblue;
+}
+
+.img-circle{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+img {
+  width:300px;
+}
+
+/*Custom design with class*/
+
+.container{
+  margin: 40px 70px;
+  padding:30px;
+}
+
+.card-white{
+  font-weight: bold;
+  background-color: #A3B4DF;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  margin:20px 0px;
+  padding:10px;
+  text-align: center;
+}
+
+.imageyoga, .imagetravel{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.button-grey{
+ background-color: #B3BFB8;
+}
+
+.box-blue {
+background-color: #98acf8;
+text-align: center;
+padding:10px 40px;
+}
+
+.among{
+  padding:10px 40px;
+  width:auto;
+  text-align: center;
+}
+
+.travelling{
+  padding:10px 40px;
+  width:auto;
+  text-align: center;
+}
+
+.yoga{
+  padding:10px 40px;
+  width:auto;
+  text-align: center;
+}
+
+.scroll {
+  background-color: #blue;
+  width: 900px;
+  height: 900px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  padding:10px 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.box-purple {
+  background-color: #efd9d1;
+  text-align:center;
+   padding:10px 10px;
+  margin:20px 0px;
+  text-align: center;
+}
+
+.img-circle{
+  border-radius:20%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.list-inline li{
+  display:inline;
+  padding:10px;
+}
+
+.list-inline i{
+  font-size:30px;
+  color:blue;
+}
+
+.main li {
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    padding:10px 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+.scrollimage{
+  width:30px;
+  background-color: #98acf8;
+}
+
+.call {
+  text-align: center;
+  list-style-type: none;
+}
+
+
+.alignleft {
+  text-align: left;
+}
+
+
+
